@@ -1,20 +1,16 @@
-//
-function dobledecadanum (listanum) {
-    let numx2=[];
-    for (let i=0; i < listanum.length; i++){
-        numx2.push(listanum[i] * 2);
-    }
-    return numx2;
+
+function hoyFecha(){
+    var hoy = new Date();
+        var dd = hoy.getDate();
+        var mm = hoy.getMonth()+1;
+        var yyyy = hoy.getFullYear();
+        
+        dd = addZero(dd);
+        mm = addZero(mm);
+ 
+        return dd+'/'+mm+'/'+yyyy;
+
+
+
+
 }
-console.log (dobledecadanum ([8, 4, 6 ,8])); 
-//
-
-*//let x = [1,2,3,4,5];
-function multiplicacion(lista){
-    return lista.map8
-    (num) => num*2;
-
-}*//
-
-
-
